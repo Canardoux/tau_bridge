@@ -4,8 +4,8 @@
 #include "struct.h"
 using namespace lab;
 
-DART_EXPORT int createChannelSplitterNode(AudioContext* context) {
-    auto node = std::make_shared<ChannelSplitterNode>(*context);
+DART_EXPORT int createChannelSplitterNode(AudioContext* context, int numberOfOutputs) {
+    auto node = std::make_shared<ChannelSplitterNode>(*context, numberOfOutputs);
     return keepNode(node);
 }
 

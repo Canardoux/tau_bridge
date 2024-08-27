@@ -4,8 +4,8 @@
 #include "struct.h"
 using namespace lab;
 
-DART_EXPORT int createChannelMergerNode(AudioContext* context) {
-    auto node = std::make_shared<ChannelMergerNode>(*context);
+DART_EXPORT int createChannelMergerNode(AudioContext* context, int numberOfInputs) {
+    auto node = std::make_shared<ChannelMergerNode>(*context, numberOfInputs);
     return keepNode(node);
 }
 
