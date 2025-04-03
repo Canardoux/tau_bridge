@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../bin/libLabSoundRtAudio_d.a CMakeFiles/LabSoundRtAudio.dir/src/backends/RtAudio/AudioDevice_RtAudio.cpp.o CMakeFiles/LabSoundRtAudio.dir/src/backends/RtAudio/RtAudio.cpp.o
+/usr/bin/ranlib ../bin/libLabSoundRtAudio_d.a

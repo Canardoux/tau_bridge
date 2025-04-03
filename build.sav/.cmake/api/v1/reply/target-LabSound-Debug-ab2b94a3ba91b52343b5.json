@@ -1,0 +1,1433 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/LabSound_d.framework/LabSound_d"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"install",
+			"configureProj",
+			"target_link_libraries",
+			"add_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"LabSound/cmake/LabSound.cmake",
+			"LabSound/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 271,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 145,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 266,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 3,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 212,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 216,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "MA_NO_AAUDIO"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/src"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/src/internal"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libsamplerate/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					6
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				139,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				166
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "MA_NO_AAUDIO"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/src"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/src/internal"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libsamplerate/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				165
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "libnyquist::@be2c6660ab06a0e736f5"
+		}
+	],
+	"id" : "LabSound::@cb0bff6bb59906a1f848",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "/Volumes/mac-H/larpoux/proj/tau/labsound-distro/lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/Volumes/mac-H/larpoux/proj/tau/labsound-distro"
+		}
+	},
+	"name" : "LabSound",
+	"nameOnDisk" : "LabSound_d.framework/LabSound_d",
+	"paths" : 
+	{
+		"build" : "LabSound",
+		"source" : "LabSound"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "include\\core",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44
+			]
+		},
+		{
+			"name" : "src\\core",
+			"sourceIndexes" : 
+			[
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75
+			]
+		},
+		{
+			"name" : "include\\extended",
+			"sourceIndexes" : 
+			[
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100
+			]
+		},
+		{
+			"name" : "src\\extended",
+			"sourceIndexes" : 
+			[
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121
+			]
+		},
+		{
+			"name" : "src\\internal",
+			"sourceIndexes" : 
+			[
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145
+			]
+		},
+		{
+			"name" : "src\\internal\\src",
+			"sourceIndexes" : 
+			[
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165
+			]
+		},
+		{
+			"name" : "third_party\\ooura",
+			"sourceIndexes" : 
+			[
+				166,
+				167
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/LabSound.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AnalyserNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioArray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioBasicInspectorNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioBasicProcessorNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioBus.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioChannel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioContext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioDevice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioHardwareInputNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioListener.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioNodeDescriptor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioNodeInput.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioNodeOutput.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioNodeScheduler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioParam.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioParamDescriptor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioParamTimeline.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioProcessor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioScheduledSourceNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioSetting.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioSettingDescriptor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioSourceProvider.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/AudioSummingJunction.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/BiquadFilterNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/ChannelMergerNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/ChannelSplitterNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/ConcurrentQueue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/ConstantSourceNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/ConvolverNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/DelayNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/DynamicsCompressorNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/FloatPoint3D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/GainNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/Macros.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/Mixing.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/OscillatorNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/PannerNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/PeriodicWave.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/Profiler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/SampledAudioNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/StereoPannerNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/WaveShaperNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/core/WindowFunctions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/AnalyserNode.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/AudioBasicInspectorNode.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/AudioBasicProcessorNode.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/AudioBus.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/AudioChannel.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/AudioContext.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/AudioDevice.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/AudioHardwareInputNode.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/AudioListener.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/AudioNode.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/AudioNodeInput.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/AudioNodeOutput.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/AudioParam.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/AudioParamTimeline.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/AudioSummingJunction.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/BiquadFilterNode.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/ChannelMergerNode.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/ChannelSplitterNode.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/ConstantSourceNode.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/ConvolverNode.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/DelayNode.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/DynamicsCompressorNode.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/GainNode.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/OscillatorNode.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/PannerNode.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/PeriodicWave.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/RealtimeAnalyser.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/SampledAudioNode.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/StereoPannerNode.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/WaveShaperNode.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/core/_SoundPipe_FFT.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/ADSRNode.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/AudioContextLock.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/AudioFileReader.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/BPMDelayNode.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/ClipNode.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/DiodeNode.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/FunctionNode.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/GranulationNode.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/Logging.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/NoiseNode.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/PWMNode.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/PdNode.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/PeakCompNode.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/PingPongDelayNode.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/PolyBLEPNode.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/PowerMonitorNode.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/RealtimeAnalyser.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/RecorderNode.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/Registry.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/SfxrNode.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/SpatializationNode.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/SpectralMonitorNode.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/SupersawNode.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/Util.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/include/LabSound/extended/VectorMath.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/extended/ADSRNode.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/extended/AudioFileReader.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/extended/BPMDelay.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/extended/ClipNode.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/extended/DiodeNode.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/extended/FunctionNode.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/extended/GranulationNode.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/extended/LabSound.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/extended/NoiseNode.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/extended/PWMNode.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/extended/PdNode.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/extended/PeakCompNode.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/extended/PingPongDelayNode.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/extended/PolyBLEPNode.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/extended/PowerMonitorNode.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/extended/RecorderNode.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/extended/Registry.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/extended/SfxrNode.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/extended/SpatializationNode.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/extended/SpectralMonitorNode.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/extended/SupersawNode.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/Assertions.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/AudioDSPKernel.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/AudioDSPKernelProcessor.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/AudioUtilities.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/Biquad.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/Cone.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/DelayDSPKernel.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/DelayProcessor.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/DenormalDisabler.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/DirectConvolver.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/Distance.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/DownSampler.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/DynamicsCompressor.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/DynamicsCompressorKernel.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/EqualPowerPanner.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/FFTConvolver.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/FFTFrame.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/internal/FFTFrameAppleAccelerate.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/HRTFDatabase.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/HRTFPanner.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/Panner.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/UpSampler.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/ZeroPole.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/src/internal/src",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/internal/src/AudioDSPKernelProcessor.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/internal/src/AudioUtilities.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/internal/src/Biquad.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/internal/src/Cone.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/internal/src/DelayDSPKernel.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/internal/src/DelayProcessor.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/internal/src/DirectConvolver.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/internal/src/Distance.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/internal/src/DownSampler.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/internal/src/DynamicsCompressor.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/internal/src/DynamicsCompressorKernel.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/internal/src/EqualPowerPanner.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/internal/src/FFTConvolver.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/internal/src/FFTFrame.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/internal/src/FFTFrameKissFFT.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/internal/src/HRTFPanner.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/internal/src/UpSampler.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/internal/src/VectorMath.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/src/internal/src/ZeroPole.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/src/internal/src/libSampleRate.c",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/third_party/ooura/src/fftsg.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 3,
+			"path" : "LabSound/third_party/ooura/fftsg.h",
+			"sourceGroupIndex" : 7
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

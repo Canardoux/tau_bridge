@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../bin/libLabSoundMiniAudio_d.a CMakeFiles/LabSoundMiniAudio.dir/src/backends/miniaudio/AudioDevice_Miniaudio.mm.o
+/usr/bin/ranlib ../bin/libLabSoundMiniAudio_d.a

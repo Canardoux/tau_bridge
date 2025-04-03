@@ -3,7 +3,9 @@
 #include "KeepNode.cpp"
 using namespace lab;
 
+/* LARPOUX
 DART_EXPORT int createNullDeviceNode(AudioContext* context, AudioStreamConfig outputConfig, const double lengthSeconds) {
     auto node = std::make_shared<NullDeviceNode>(*context, outputConfig, lengthSeconds);
     return keepNode(node);
 }
+*/

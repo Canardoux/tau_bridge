@@ -1,0 +1,418 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"configureProj",
+			"include"
+		],
+		"files" : 
+		[
+			"LabSound/cmake/LabSound.cmake",
+			"LabSound/CMakeLists.txt",
+			"LabSound/cmake/examples.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 271,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 145,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 154,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 272,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 145,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 154,
+				"parent" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 145,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 154,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 275,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 145,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 154,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 278,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 280,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 282,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 284,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 290,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 96,
+				"parent" : 21
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "/Volumes/mac-H/larpoux/proj/tau/labsound-distro/lib",
+			"paths" : 
+			[
+				{
+					"from" : "bin/LabSound_d.framework",
+					"to" : "LabSound_d.framework/Versions/A/LabSound_d"
+				}
+			],
+			"targetId" : "LabSound::@cb0bff6bb59906a1f848",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "/Volumes/mac-H/larpoux/proj/tau/labsound-distro/LabSound/cmake",
+			"exportName" : "LabSoundConfig",
+			"exportTargets" : 
+			[
+				{
+					"id" : "LabSound::@cb0bff6bb59906a1f848",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"LabSound/CMakeFiles/Export/27b17346ffff1a207afe4335770ac664/LabSoundConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "/Volumes/mac-H/larpoux/proj/tau/labsound-distro/lib",
+			"paths" : 
+			[
+				"bin/libLabSoundMock_d.a"
+			],
+			"targetId" : "LabSoundMock::@cb0bff6bb59906a1f848",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "/Volumes/mac-H/larpoux/proj/tau/labsound-distro/LabSoundMock/cmake",
+			"exportName" : "LabSoundMockConfig",
+			"exportTargets" : 
+			[
+				{
+					"id" : "LabSoundMock::@cb0bff6bb59906a1f848",
+					"index" : 3
+				}
+			],
+			"paths" : 
+			[
+				"LabSound/CMakeFiles/Export/27a3668685f479ca2ad3d84940e44f21/LabSoundMockConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "/Volumes/mac-H/larpoux/proj/tau/labsound-distro/lib",
+			"paths" : 
+			[
+				"bin/libLabSoundMiniAudio_d.a"
+			],
+			"targetId" : "LabSoundMiniAudio::@cb0bff6bb59906a1f848",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "/Volumes/mac-H/larpoux/proj/tau/labsound-distro/LabSoundMiniAudio/cmake",
+			"exportName" : "LabSoundMiniAudioConfig",
+			"exportTargets" : 
+			[
+				{
+					"id" : "LabSoundMiniAudio::@cb0bff6bb59906a1f848",
+					"index" : 2
+				}
+			],
+			"paths" : 
+			[
+				"LabSound/CMakeFiles/Export/eae69b6dfb49b2e9040ed7d3d75e316e/LabSoundMiniAudioConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "/Volumes/mac-H/larpoux/proj/tau/labsound-distro/lib",
+			"paths" : 
+			[
+				"bin/libLabSoundRtAudio_d.a"
+			],
+			"targetId" : "LabSoundRtAudio::@cb0bff6bb59906a1f848",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "/Volumes/mac-H/larpoux/proj/tau/labsound-distro/LabSoundRtAudio/cmake",
+			"exportName" : "LabSoundRtAudioConfig",
+			"exportTargets" : 
+			[
+				{
+					"id" : "LabSoundRtAudio::@cb0bff6bb59906a1f848",
+					"index" : 4
+				}
+			],
+			"paths" : 
+			[
+				"LabSound/CMakeFiles/Export/83b1561b7a9ac386ece1722e9ef7c600/LabSoundRtAudioConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "include/LabSound",
+			"paths" : 
+			[
+				"LabSound/include/LabSound/LabSound.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "include/LabSound/core",
+			"paths" : 
+			[
+				"LabSound/include/LabSound/core/AnalyserNode.h",
+				"LabSound/include/LabSound/core/AudioArray.h",
+				"LabSound/include/LabSound/core/AudioBasicInspectorNode.h",
+				"LabSound/include/LabSound/core/AudioBasicProcessorNode.h",
+				"LabSound/include/LabSound/core/AudioBus.h",
+				"LabSound/include/LabSound/core/AudioChannel.h",
+				"LabSound/include/LabSound/core/AudioContext.h",
+				"LabSound/include/LabSound/core/AudioDevice.h",
+				"LabSound/include/LabSound/core/AudioHardwareInputNode.h",
+				"LabSound/include/LabSound/core/AudioListener.h",
+				"LabSound/include/LabSound/core/AudioNode.h",
+				"LabSound/include/LabSound/core/AudioNodeDescriptor.h",
+				"LabSound/include/LabSound/core/AudioNodeInput.h",
+				"LabSound/include/LabSound/core/AudioNodeOutput.h",
+				"LabSound/include/LabSound/core/AudioNodeScheduler.h",
+				"LabSound/include/LabSound/core/AudioParam.h",
+				"LabSound/include/LabSound/core/AudioParamDescriptor.h",
+				"LabSound/include/LabSound/core/AudioParamTimeline.h",
+				"LabSound/include/LabSound/core/AudioProcessor.h",
+				"LabSound/include/LabSound/core/AudioScheduledSourceNode.h",
+				"LabSound/include/LabSound/core/AudioSetting.h",
+				"LabSound/include/LabSound/core/AudioSettingDescriptor.h",
+				"LabSound/include/LabSound/core/AudioSourceProvider.h",
+				"LabSound/include/LabSound/core/AudioSummingJunction.h",
+				"LabSound/include/LabSound/core/BiquadFilterNode.h",
+				"LabSound/include/LabSound/core/ChannelMergerNode.h",
+				"LabSound/include/LabSound/core/ChannelSplitterNode.h",
+				"LabSound/include/LabSound/core/ConcurrentQueue.h",
+				"LabSound/include/LabSound/core/ConstantSourceNode.h",
+				"LabSound/include/LabSound/core/ConvolverNode.h",
+				"LabSound/include/LabSound/core/DelayNode.h",
+				"LabSound/include/LabSound/core/DynamicsCompressorNode.h",
+				"LabSound/include/LabSound/core/FloatPoint3D.h",
+				"LabSound/include/LabSound/core/GainNode.h",
+				"LabSound/include/LabSound/core/Macros.h",
+				"LabSound/include/LabSound/core/Mixing.h",
+				"LabSound/include/LabSound/core/OscillatorNode.h",
+				"LabSound/include/LabSound/core/PannerNode.h",
+				"LabSound/include/LabSound/core/PeriodicWave.h",
+				"LabSound/include/LabSound/core/Profiler.h",
+				"LabSound/include/LabSound/core/SampledAudioNode.h",
+				"LabSound/include/LabSound/core/StereoPannerNode.h",
+				"LabSound/include/LabSound/core/WaveShaperNode.h",
+				"LabSound/include/LabSound/core/WindowFunctions.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "include/LabSound/extended",
+			"paths" : 
+			[
+				"LabSound/include/LabSound/extended/ADSRNode.h",
+				"LabSound/include/LabSound/extended/AudioContextLock.h",
+				"LabSound/include/LabSound/extended/AudioFileReader.h",
+				"LabSound/include/LabSound/extended/BPMDelayNode.h",
+				"LabSound/include/LabSound/extended/ClipNode.h",
+				"LabSound/include/LabSound/extended/DiodeNode.h",
+				"LabSound/include/LabSound/extended/FunctionNode.h",
+				"LabSound/include/LabSound/extended/GranulationNode.h",
+				"LabSound/include/LabSound/extended/Logging.h",
+				"LabSound/include/LabSound/extended/NoiseNode.h",
+				"LabSound/include/LabSound/extended/PWMNode.h",
+				"LabSound/include/LabSound/extended/PdNode.h",
+				"LabSound/include/LabSound/extended/PeakCompNode.h",
+				"LabSound/include/LabSound/extended/PingPongDelayNode.h",
+				"LabSound/include/LabSound/extended/PolyBLEPNode.h",
+				"LabSound/include/LabSound/extended/PowerMonitorNode.h",
+				"LabSound/include/LabSound/extended/RealtimeAnalyser.h",
+				"LabSound/include/LabSound/extended/RecorderNode.h",
+				"LabSound/include/LabSound/extended/Registry.h",
+				"LabSound/include/LabSound/extended/SfxrNode.h",
+				"LabSound/include/LabSound/extended/SpatializationNode.h",
+				"LabSound/include/LabSound/extended/SpectralMonitorNode.h",
+				"LabSound/include/LabSound/extended/SupersawNode.h",
+				"LabSound/include/LabSound/extended/Util.h",
+				"LabSound/include/LabSound/extended/VectorMath.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "include/LabSound/backends",
+			"paths" : 
+			[
+				"LabSound/include/LabSound/backends/AudioDevice_Miniaudio.h",
+				"LabSound/include/LabSound/backends/AudioDevice_RtAudio.h",
+				"LabSound/include/LabSound/backends/AudioDevice_MockAudio.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"destination" : "share/LabSound",
+			"paths" : 
+			[
+				"LabSound/assets/hrtf",
+				"LabSound/assets/images",
+				"LabSound/assets/impulse",
+				"LabSound/assets/json",
+				"LabSound/assets/pd",
+				"LabSound/assets/samples"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"LabSound/bin/LabSoundExample"
+			],
+			"targetId" : "LabSoundExample::@cb0bff6bb59906a1f848",
+			"targetIndex" : 1,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "LabSound",
+		"source" : "LabSound"
+	}
+}

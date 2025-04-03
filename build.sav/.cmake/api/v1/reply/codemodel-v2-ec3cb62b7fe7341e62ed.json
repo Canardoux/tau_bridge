@@ -1,0 +1,183 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-6fa9247066b2e2f12e6a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "LabSound",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-LabSound-Debug-dd2fceb2f7f5d7eb3f9a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "LabSound",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "LabSound/third_party/libnyquist",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-LabSound.third_party.libnyquist-Debug-b8f202d8c6f9b2d4cdfc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "LabSound/third_party/libnyquist",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TauBridge",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "LabSound",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "libnyquist",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "LabSound::@cb0bff6bb59906a1f848",
+					"jsonFile" : "target-LabSound-Debug-ab2b94a3ba91b52343b5.json",
+					"name" : "LabSound",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "LabSoundExample::@cb0bff6bb59906a1f848",
+					"jsonFile" : "target-LabSoundExample-Debug-77189c31b6b08de74063.json",
+					"name" : "LabSoundExample",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "LabSoundMiniAudio::@cb0bff6bb59906a1f848",
+					"jsonFile" : "target-LabSoundMiniAudio-Debug-d8713e971082c7fdc738.json",
+					"name" : "LabSoundMiniAudio",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "LabSoundMock::@cb0bff6bb59906a1f848",
+					"jsonFile" : "target-LabSoundMock-Debug-119cc34d071d7f5c0118.json",
+					"name" : "LabSoundMock",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "LabSoundRtAudio::@cb0bff6bb59906a1f848",
+					"jsonFile" : "target-LabSoundRtAudio-Debug-db6e9b3dff50cbddce20.json",
+					"name" : "LabSoundRtAudio",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TauBridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TauBridge-Debug-da7c0351c678ae8faf19.json",
+					"name" : "TauBridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "libnyquist::@be2c6660ab06a0e736f5",
+					"jsonFile" : "target-libnyquist-Debug-d079e3619e016a388f2d.json",
+					"name" : "libnyquist",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/build",
+		"source" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

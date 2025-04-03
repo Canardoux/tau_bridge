@@ -1,0 +1,618 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "LabSound/third_party/libnyquist/lib/liblibnyquist_d.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"add_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"LabSound/third_party/libnyquist/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 178,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 234,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 192,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "MA_NO_AAUDIO"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/include/libnyquist"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/FLAC/src/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/libogg/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/libvorbis/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/libvorbis/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/musepack/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/opus/celt"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/opus/libopus/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/opus/opusfile/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/opus/opusfile/src/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/opus/silk"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/opus/silk/float"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/wavpack/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				7,
+				8,
+				10,
+				12,
+				14,
+				15
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "MA_NO_AAUDIO"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/include/libnyquist"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/FLAC/src/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/libogg/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/libvorbis/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/libvorbis/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/musepack/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/opus/celt"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/opus/libopus/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/opus/opusfile/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/opus/opusfile/src/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/opus/silk"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/opus/silk/float"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/third_party/wavpack/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/mac-H/larpoux/proj/tau/tau_bridge/LabSound/third_party/libnyquist/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				6,
+				9,
+				11,
+				13,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41
+			]
+		}
+	],
+	"id" : "libnyquist::@be2c6660ab06a0e736f5",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/Volumes/mac-H/larpoux/proj/tau/labsound-distro"
+		}
+	},
+	"name" : "libnyquist",
+	"nameOnDisk" : "liblibnyquist_d.a",
+	"paths" : 
+	{
+		"build" : "LabSound/third_party/libnyquist",
+		"source" : "LabSound/third_party/libnyquist"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"name" : "src",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "LabSound/third_party/libnyquist/include/libnyquist/Common.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "LabSound/third_party/libnyquist/include/libnyquist/Decoders.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "LabSound/third_party/libnyquist/include/libnyquist/Encoders.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/third_party/libnyquist/src/Common.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/third_party/libnyquist/src/Encoders.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/third_party/libnyquist/src/FlacDecoder.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/src/FlacDependencies.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/third_party/libnyquist/src/Mp3Decoder.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/third_party/libnyquist/src/MusepackDecoder.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/src/MusepackDependencies.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/third_party/libnyquist/src/OpusDecoder.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/src/OpusDependencies.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/third_party/libnyquist/src/VorbisDecoder.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/src/VorbisDependencies.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/third_party/libnyquist/src/WavDecoder.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "LabSound/third_party/libnyquist/src/WavPackDecoder.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/common_utils.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/decorr_utils.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/entropy_utils.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/extra1.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/extra2.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/open_filename.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/open_legacy.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/open_raw.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/open_utils.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/pack.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dns.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/pack_dsd.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/pack_floats.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/pack_utils.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/read_words.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/tag_utils.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/tags.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/unpack.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_open.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/unpack3_seek.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_dsd.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_floats.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_seek.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/unpack_utils.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LabSound/third_party/libnyquist/third_party/wavpack/src/write_words.c",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

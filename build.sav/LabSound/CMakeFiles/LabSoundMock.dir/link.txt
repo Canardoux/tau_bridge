@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../bin/libLabSoundMock_d.a CMakeFiles/LabSoundMock.dir/src/backends/mockAudio/AudioDevice_MockAudio.cpp.o
+/usr/bin/ranlib ../bin/libLabSoundMock_d.a

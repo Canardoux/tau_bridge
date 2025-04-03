@@ -4,6 +4,7 @@
 #include "struct.h"
 using namespace lab;
 
+/* LARPOUX
 DART_EXPORT int createAudioHardwareDeviceNode(AudioContext* context, const AudioStreamConfig outputConfig, const AudioStreamConfig inputConfig) {
     auto node = std::make_shared<lab::AudioHardwareDeviceNode>(*context, outputConfig, inputConfig);
     return keepNode(node);
@@ -39,6 +40,7 @@ DART_EXPORT void AudioHardwareDeviceNode_backendReinitialize(int nodeId) {
     if(node) node->backendReinitialize();
 }
 
+*/
 DART_EXPORT AudioStreamConfig createAudioStreamConfig(int device_index, uint32_t desired_channels, float desired_samplerate) {
     AudioStreamConfig config;
     config.device_index = device_index;

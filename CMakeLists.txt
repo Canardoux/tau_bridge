@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
-project(LabSoundBridge)
+project(TauBridge)
+set(CMAKE_CXX_STANDARD 14)
+
 add_definitions(-DMA_NO_AAUDIO)
 if (WIN32)
     # target_compile_options(${proj} PRIVATE /Zi)
@@ -81,15 +83,15 @@ add_subdirectory(LabSound EXCLUDE_FROM_ALL)
 
 file(GLOB dart_api_h      "${LABSOUND_BRIDGE_ROOT}/bridge/dart_api/*")
 
-add_library(LabSoundBridge SHARED
-    ./bridge/LabSoundBridge.cpp
+add_library(TauBridge SHARED
+    ./bridge/TauBridge.cpp
     ${dart_api_h}
 )
 
-target_link_libraries(LabSoundBridge LabSound ${DARWIN_LIBS})
+target_link_libraries(TauBridge LabSound ${DARWIN_LIBS})
 
 if (APPLE)
-    set_target_properties(LabSoundBridge PROPERTIES
+    set_target_properties(TauBridge PROPERTIES
         FRAMEWORK TRUE
         FRAMEWORK_VERSION A
         MACOSX_FRAMEWORK_IDENTIFIER com.Lab.LabSound.bridge
@@ -103,13 +105,13 @@ if (APPLE)
     # set_property(SOURCE ${labsnd_extended_h}
     #     PROPERTY MACOSX_PACKAGE_LOCATION Headers/LabSound/extended)
 else()
-    # set_target_properties(LabSoundBridge
+    # set_target_properties(TauBridge
     #     PROPERTIES
-    #     OUTPUT_NAME_DEBUG LabSoundBridge_d
+    #     OUTPUT_NAME_DEBUG TauBridge_d
     # )
 endif()
 
-install(TARGETS LabSoundBridge
+install(TARGETS TauBridge
     LIBRARY DESTINATION ${CMAKE_INSTALL_PREFIX}
     ARCHIVE DESTINATION ${CMAKE_INSTALL_PREFIX}
     FRAMEWORK DESTINATION ${CMAKE_INSTALL_PREFIX}

@@ -5,12 +5,12 @@
 using namespace lab;
 
 DART_EXPORT AudioContext* createRealtimeAudioContext(AudioStreamConfig outputConfig, AudioStreamConfig inputConfig){
-    auto context = MakeRealtimeAudioContext(outputConfig, inputConfig).release();
-    return context;
+    auto context = createRealtimeAudioContext(outputConfig, inputConfig); // LARPOUX->release();
+    return context; 
 }
 
 DART_EXPORT AudioContext* createOfflineAudioContext(AudioStreamConfig outputConfig, double recordTimeMilliseconds){
-    auto context = MakeOfflineAudioContext(outputConfig, recordTimeMilliseconds).release();
+    auto context = createOfflineAudioContext(outputConfig, recordTimeMilliseconds); // LARPOUX ->release();
     return context;
 }
 
@@ -92,6 +92,7 @@ DART_EXPORT int AudioContext_isConnected(AudioContext* context, int destination,
     ) : 0;
 }
 
+/* LARPOUX
 DART_EXPORT int AudioContext_device(AudioContext* context){
     return keepNode(context->device());
 }
@@ -100,6 +101,7 @@ DART_EXPORT void AudioContext_setDeviceNode(AudioContext* context, int nodeId){
     auto node = getNode(nodeId);
     if(node) context->setDeviceNode(node);
 }
+*/
 
 DART_EXPORT int AudioContext_isOfflineContext(AudioContext* context){
     return context->isOfflineContext();
@@ -149,6 +151,7 @@ DART_EXPORT void  AudioContext_disconnectParam(AudioContext* context, int paramN
     if(param && driverNode) context->disconnectParam(param, driverNode, index);
 }
 
+/* LARPOUX
 DART_EXPORT int AudioContext_makeAudioHardwareInputNode(AudioContext* context) {
     ContextRenderLock r(context, "MakeAudioHardwareInputNode");
     return keepNode(lab::MakeAudioHardwareInputNode(r));
@@ -159,3 +162,4 @@ DART_EXPORT void AudioContext_releaseContext(AudioContext* ctx) {
     keepNodeRelease(devId);
     delete ctx;
 }
+*/
